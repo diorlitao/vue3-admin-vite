@@ -1,0 +1,35 @@
+/** 全局 CSS 变量，这种变量不仅可以在 CSS 和 SCSS 中使用，还可以导入到 JS 中使用 */
+
+:root {
+  /** 全局背景色 */
+  --ui-body-bg-color: #f2f3f5;
+  /** Header 区域 = NavigationBar 组件 + TagsView 组件 */
+  --ui-header-height: calc(var(--ui-navigationbar-height) + var(--ui-tagsview-height));
+  /** NavigationBar 组件 */
+  --ui-navigationbar-height: 50px;
+  /** Sidebar 组件 */
+  --ui-sidebar-width: 220px;
+  --ui-sidebar-hide-width: 58px;
+  --ui-sidebar-menu-item-height: 60px;
+  --ui-sidebar-menu-tip-line-bg-color: var(--el-color-primary);
+  --ui-sidebar-menu-bg-color: #001428;
+  --ui-sidebar-menu-hover-bg-color: #ffffff10;
+  --ui-sidebar-menu-text-color: #c0c4cc;
+  --ui-sidebar-menu-active-text-color: #ffffff;
+  /** SidebarLogo 组件 */
+  --ui-sidebarlogo-bg-color: #001428;
+  /** TagsView 组件 */
+  --ui-tagsview-height: 34px;
+  --ui-tagsview-tag-text-color: #495060;
+  --ui-tagsview-tag-active-text-color: #ffffff;
+  --ui-tagsview-tag-bg-color: #ffffff;
+  --ui-tagsview-tag-active-bg-color: var(--el-color-primary);
+  --ui-tagsview-tag-border-radius: 2px;
+  --ui-tagsview-tag-border-color: #d8dce5;
+  --ui-tagsview-tag-active-border-color: var(--el-color-primary);
+  --ui-tagsview-tag-active-before-color: #ffffff;
+  --ui-tagsview-tag-icon-hover-bg-color: #00000030;
+  --ui-tagsview-tag-icon-hover-color: #ffffff;
+  /** RightPanel 组件  */
+  --ui-rightpanel-button-bg-color: #001428;
+}

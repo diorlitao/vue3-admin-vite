@@ -1,0 +1,33 @@
+/**
+ * spring 主题下的 Element Plus CSS 变量
+ * 在此查阅所有可自定义的变量：https://github.com/element-plus/element-plus/blob/dev/packages/theme-chalk/src/common/var.scss
+ */
+
+html.spring {
+  /** color */
+  --el-color-primary: #01efb7bb;
+  --el-color-success: #01efb7bb;
+  /** text-color */
+  --el-text-color-primary: rgba(0, 0, 0, 0.8);
+  --el-text-color-regular: rgba(0, 0, 0, 0.8);
+  --el-text-color-secondary: rgba(0, 0, 0, 0.8);
+  --el-text-color-placeholder: rgba(0, 0, 0, 0.8);
+  --el-text-color-disabled: rgba(117, 104, 104, 0.1);
+  /** border-color */
+  --el-border-color: #01efb755;
+  --el-border-color-light: #01efb755;
+  --el-border-color-lighter: #01efb755;
+  /** fill-color */
+  --el-fill-color: #ffffff10;
+  --el-fill-color-light: #ffffff10;
+  --el-fill-color-blank: #ffffff;
+  /** bg-color */
+  /* --el-bg-color: #021633; */
+  /* --el-bg-color-overlay: #021633; */
+  /** mask */
+  --el-mask-color: rgba(0, 0, 0, 0.5);
+
+  --ui-sidebar-menu-hover-bg-color: #ffffff10;
+  --ui-sidebar-menu-text-color: #333333;
+  --ui-sidebar-menu-active-text-color: #000000;
+}
